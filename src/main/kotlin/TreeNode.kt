@@ -1,7 +1,4 @@
-class TreeNode(val value: Int,
-               var left: TreeNode? = null,
-               var right: TreeNode? = null){
-
+class TreeNode(val value: Int, var left: TreeNode? = null, var right: TreeNode? = null){
     /**
      * searching a binary search tree
      * @param searchValue
